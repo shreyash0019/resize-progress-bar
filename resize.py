@@ -23,3 +23,5 @@ for image in tqdm(list_images, desc="Resizing Images"):
     Resize_image(size, image)
     sleep(0.1)
 print("Resizing Completed!")
+
+
